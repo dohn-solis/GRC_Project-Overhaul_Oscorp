@@ -1,7 +1,0 @@
-Sub-Category,Control Objective,Description,Questions,Pass/Fail,Comments
-Recovery Planning,"Recovery processes ensure timely restoration after cyber events.",Recovery plan executed during/after event.,"Disaster recovery plan in place and tested?",Pass,"DR testing is conducted regularly; backups taken and tested."
-Improvements,"Recovery processes improved by lessons learned.",Plan includes lessons learned.,"Does DR plan include 'lessons learned'?",Pass,"No 'lessons learned' step in DR plans."
-,,Strategies updated.,"Is DR plan tested/updated regularly?",Pass,"Periodic testing and regular updates performed."
-,,Reputation after an event repaired.,"Does DR plan include reputation mitigation steps?",Fail,"No mitigating steps for reputation."
-Communications,"Restoration coordinated with internal/external parties.",Public relations managed.,"Is comms improved through DR testing?",N/A,
-,,Stakeholder communication/escalation.,"Clear comms/escalation points in DR plans?",Fail,"No clear comms/escalation points in DR plans."
