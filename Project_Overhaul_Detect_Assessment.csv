@@ -1,0 +1,6 @@
+Sub-Category,Control Objective,Description,Questions,Pass/Fail,Comments
+Detect,"Anomalies and events are detected in a timely manner.","Detection processes exist.","Are there tools/processes for detecting security events?",Fail,"No SIEM or centralized logging."
+Detect,"Detection capabilities are tested and maintained.","Detection technologies and processes are tested.","Are detection tools tested regularly?",Fail,"No testing process."
+Detect,"Continuous monitoring is in place.","Ongoing security monitoring.","Is there continuous monitoring of security events?",Fail,"No monitoring program."
+Detect,"Detection processes are coordinated.","Incident detection procedures documented.","Are incident detection procedures documented and communicated?",Fail,"No documented processes."
+Detect,"Detection activities support response and recovery.","Detection feeds response and recovery.","Are detection activities integrated with response/recovery?",Fail,"No integration between detection and response."

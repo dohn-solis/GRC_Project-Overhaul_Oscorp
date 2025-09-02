@@ -1,0 +1,6 @@
+Sub-Category,Control Objective,Description,Questions,Pass/Fail,Comments
+Protect,"Access to assets is limited to authorized users, processes or devices.","Access control management and enforcement.","Are access permissions, privileges and roles documented and reviewed regularly?",Fail,"No periodic review of access privileges."
+Protect,"Awareness and training for personnel is conducted.","Security awareness program is implemented.","Do employees receive regular cyber security training?",Fail,"No formal training program."
+Protect,"Data is protected and managed according to risk.","Data management and encryption.","Is sensitive data encrypted and managed appropriately?",Fail,"No encryption or data classification program."
+Protect,"Processes and procedures ensure protection of assets.","Documented security policies and procedures.","Are security policies and procedures documented and enforced?",Fail,"No documented policies."
+Protect,"Protective technology is managed and maintained.","Technology solutions are updated and maintained.","Are security technologies (antivirus, firewalls, etc.) updated regularly?",Fail,"No technology lifecycle management."
