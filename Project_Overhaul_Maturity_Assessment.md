@@ -92,4 +92,4 @@
 |  |  | Recovery strategies updated. | 1. Is disaster recovery tested/updated regularly? | Pass | Testing and regular updates occur for DR plans. |
 |  |  | Reputation repaired after event. | 1. Are reputation mitigation steps included? | Fail | No mitigating steps for reputation in DR plans. |
 | Communications | Coordinate restoration activities with internal/external parties. | Public relations managed. | 1. Is communication improved during DR testing? | N/A |  |
-|  |  | Internal comms/escalation for recovery. | 1. Are there clear comms/escalation points in DR plans? | Fail | No clear communication/escalation points in DR plans.
+|  |  | Internal comms/escalation for recovery. | 1. Are there clear comms/escalation points in DR plans? | Fail | No clear communication/escalation points in DR plans. |
