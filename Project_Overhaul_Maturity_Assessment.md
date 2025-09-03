@@ -1,95 +1,122 @@
-# Project Overhaul Maturity Assessment
-
----
-
-## Asset Management
+# Asset Management
+*Identify and manage assets critical to business objectives and risk strategy.*
 
 | Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
-|---|---|---|---|---|
-| Identify/manage data, personnel, devices, systems, and facilities by importance to business/risk. | Physical device inventory. | 1. Is there an updated CMDB/asset list of all hardware? 2. Is periodic review done to keep the CMDB accurate? | Pass | IT team keeps a spreadsheet of laptop serials; SOE is used for imaging; periodic CMDB reviews needed. |
-|  | Software inventory. | 1. Is there an updated CMDB/asset list of all software? 2. Is periodic review done to keep the CMDB accurate? | Fail |  |
-|  | Map org communication and data flows. | 1. Are up-to-date network diagrams (including cloud) maintained? | Pass | Network diagrams are current and include cloud. |
-|  | Catalogue external info systems. | 1. Are SaaS instances catalogued/classified in CMDB? 2. Is there an updated inventory of third-party suppliers? | Fail | No sensitivity/criticality classification in inventory. |
-|  | Prioritize resources by classification, criticality, business value. | 1. Are CMDB assets classified by sensitivity/criticality? | Fail | Assets not classified by sensitivity/criticality. |
-|  | Establish cyber roles/responsibilities for workforce/third-parties. | 1. Are cyber roles defined? 2. Is there a security policy for roles/responsibilities (including suppliers)? | Fail | Roles undefined; no security policy for cyber roles/responsibilities. |
+|-------------------|--------------------|------------------|-----------|----------|
+| Physical devices and systems inventoried | Are all physical (hardware) devices tracked in an up-to-date CMDB or asset inventory? | 1. Is the CMDB/spreadsheet current? 2. Are periodic reviews done? | Pass | IT team maintains laptop inventory and SOE imaging; CMDB needs regular reviews. |
+| Software platforms inventoried | Are software assets tracked in CMDB? | 1. Is software asset inventory current? 2. Are periodic reviews done? | Fail |  |
+| Communication/data flows mapped | Are network diagrams (including cloud) clear and current? | 1. Are diagrams up to date? | Pass | Yes, diagrams are up to date. |
+| External information systems catalogued | Are SaaS instances and third-party suppliers inventoried/classified? | 1. Is SaaS catalogued/classified? 2. Are suppliers inventoried? | Fail | No classification for sensitivity/criticality. |
+| Resources prioritized by classification/criticality/value | Are assets classified by sensitivity/criticality? | 1. Are assets classified? | Fail | Not classified in CMDB. |
+| Cybersecurity roles/responsibilities established | Are roles/responsibilities defined and policy in place (including third parties)? | 1. Are roles defined? 2. Is policy in place? | Fail | Roles undefined; no policy for roles/responsibilities. |
 
----
-
-## Business Environment
-
-| Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
-|---|---|---|---|---|
-| Understand/prioritize mission/objectives/stakeholders for cyber roles/risk management. | Identify org role in supply chain. | 1. Is supply chain role documented for cyber risk (mapping/classification of suppliers)? | Fail | No documentation or classification of supply chain cyber roles; no supplier risk process. |
-|  | Identify org place in critical infrastructure/sector. | 1. Is org considered 'critical infrastructure'? If yes, document in security policy and inform stakeholders. | N/A | Not a critical infrastructure org. |
-|  | Set/communicate priorities for mission/objectives/activities. | Does org have a clear business strategy and mission? | Pass | Strategy and mission statement exist. |
-|  | Establish dependencies/critical functions for service delivery. | 1. Are key services/applications inventoried/classified? 2. Are BCP/DR plans in place for key services? | Fail | No classification of key services/applications; assets not classified; critical assets list missing. |
-|  | Set resilience requirements for critical services. | 1. Do BCP/DR plans support critical service resilience? 2. Is due diligence (BCP, SLA, SOC) reviewed for third-party service resilience? | Pass | BCP/DR plans and due diligence support resilience for critical services and third-parties. |
-
----
-
-## Governance
+# Business Environment
+*Understand mission, objectives, stakeholders, and use this to inform cyber roles and risk.*
 
 | Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
-|---|---|---|---|---|
-| Manage/monitor compliance, legal, risk, and operational requirements for cyber risk. | Information security policy established. | Does org have a security policy? | Fail | No security policy exists. |
-|  | Align info security roles/responsibilities with internal/external partners. | Are roles documented/communicated with stakeholders/suppliers? | Fail | Roles/responsibilities undefined; no cyber strategy. |
-|  | Understand/manage legal/regulatory cyber/privacy requirements. | Are legal/regulatory responsibilities documented (privacy, cyber)? | Fail | No documentation of legal/regulatory cyber/privacy responsibilities. |
-|  | Address cyber risk in governance/risk management processes. | 1. Are cyber risk processes/procedures established? 2. Does board oversee info security risks? | Fail | No cyber risk processes; no policies; board lacks visibility. |
+|-------------------|--------------------|------------------|-----------|----------|
+| Role in supply chain identified | Is there documentation of the organization's supply chain role and supplier classification? | 1. Is supply chain role documented? | Fail | No documentation or classification; no supplier risk process. |
+| Critical infrastructure/sector identified | Is the organization 'critical infrastructure'? | 1. Is this documented and communicated to stakeholders? | N/A | Not a critical infrastructure organization. |
+| Priorities/mission/objectives communicated | Are strategy and mission statement clear? | 1. Is business strategy clear? | Pass | Clear strategy and mission statement. |
+| Critical services dependencies established | Are critical services/applications inventoried/classified; BCP/DRP in place? | 1. Are critical services classified? 2. Are plans in place? | Fail | No inventories/classification; assets should be classified. |
+| Resilience requirements for critical services | Do BCP/DRP support resilience? Is due diligence on third parties done? | 1. Do plans support resilience? 2. Is due diligence done? | Pass | Yes, BCP/DRP and due diligence are in place. |
 
----
-
-## Risk Assessment
-
-| Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
-|---|---|---|---|---|
-| Understand cyber risks to operations/assets/people. | Document asset vulnerabilities. | Are vulnerability scans conducted, analyzed, and documented? | Fail | No formal vulnerability program; scans are ad-hoc with unclear coverage. |
-|  | Receive threat/vulnerability intel. | Does vulnerability program include threat intel sources? | Fail | No program or threat intel subscriptions; no security team/function. |
-|  | Identify/document internal/external threats. | 1. Are threat assessments done? 2. Are threat actors identified and documented? | Fail | No threat assessments or actor identification due to lack of strategy. |
-|  | Identify business impacts/likelihoods. | Are impact/likelihood included in cyber risk assessments? | Fail | No cyber risk process. |
-|  | Use threats, vulnerabilities, likelihoods, impacts to determine risk. | Does risk assessment identify threats/vulnerabilities, likelihood/damage, and control sufficiency? | Fail | No risk process. |
-|  | Prioritize risk responses. | Are assessment recommendations prioritized by business impact? | Fail | No risk process. |
-
----
-
-## Risk Management Strategy
+# Governance
+*Policies, procedures, processes to manage and monitor risk requirements.*
 
 | Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
-|---|---|---|---|---|
-| Set priorities, constraints, tolerances, and assumptions for risk decisions. | Stakeholders agree/manage risk processes. | Has risk management process been endorsed by senior management? | Fail | No cyber strategy in place, so not endorsed. |
-|  | Express organizational risk tolerance. | Is there a defined/approved cyber risk appetite statement? | Fail | No strategy/risk process; no statement exists. |
-|  | Determine risk tolerance based on critical infrastructure/sector. | If critical infrastructure, is risk tolerance factored in? | N/A | Org is not critical infrastructure. |
+|-------------------|--------------------|------------------|-----------|----------|
+| Information security policy established | Is there an information security policy? | 1. Is policy in place? | Fail | No information security policy. |
+| Security roles/responsibilities coordinated | Are roles documented/communicated internally and externally? | 1. Are roles documented and communicated? | Fail | Roles not defined; no cyber strategy. |
+| Legal/regulatory requirements understood | Are legal/regulatory responsibilities documented? | 1. Is documentation in place? | Fail | No documentation. |
+| Governance/risk processes address cyber risk | Are processes mature? Does board have oversight? | 1. Are processes mature? 2. Does board oversee? | Fail | No processes/policy; board has no visibility. |
 
----
+# Risk Assessment
+*Understand risk to operations, assets, and individuals.*
 
-## Response Planning
+| Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
+|-------------------|--------------------|------------------|-----------|----------|
+| Asset vulnerabilities identified/doc'd | Are vulnerability scans performed and documented? | 1. Are scans regular and documented? | Fail | No formal program; scans ad-hoc. |
+| Threat/vulnerability info received | Is threat intelligence received via subscriptions/forums? | 1. Are subscriptions active? | Fail | No program or subscriptions; no cyber team. |
+| Threats identified/doc'd | Have threat assessments/actor identification been performed? | 1. Are threats/actors assessed/documented? | Fail | No threat assessments or documentation. |
+| Business impacts/likelihoods identified | Are impact/likelihood included in risk assessments? | 1. Are impacts/likelihood assessed? | Fail | No cyber risk process. |
+| Threats/vulnerabilities/likelihood/impact used for risk | Does risk assessment process consider these factors? | 1. Are factors considered in risk assessment? | Fail | No risk process. |
+| Risk responses identified/prioritized | Are recommendations prioritized by criticality/impact? | 1. Are outcomes prioritized? | Fail | No risk process. |
+
+# Risk Management Strategy
+*Organization’s priorities, constraints, risk tolerances support operational decisions.*
+
+| Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
+|-------------------|--------------------|------------------|-----------|----------|
+| Risk management process endorsed | Is process endorsed by senior management? | 1. Is process endorsed? | Fail | No cyber strategy. |
+| Risk tolerance expressed | Is cyber risk appetite statement defined/approved? | 1. Is risk appetite statement approved? | Fail | No strategy or statement. |
+| Risk tolerance informed by infrastructure/sector analysis | If critical infrastructure, is risk tolerance adjusted? | 1. Is sector considered in risk tolerance? | N/A | Not a critical infrastructure. |
+
+# Response Planning
+*Response processes and procedures are executed and maintained to ensure timely response to detected cybersecurity events.*
 
 | Sub-Category | Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
-|---|---|---|---|---|---|
-| Response Planning | Timely execution and maintenance of response processes/procedures. | Response plan executed during/after event. | 1. Are incident response plans in place and used during incidents? | Fail | No cyber response at Oscorp. |
-| Communications | Coordinate response with internal/external stakeholders incl. law enforcement. | Staff know response roles/order. | 1. Do plans include contacts/escalation points? Are they tested? | Fail | No plans, contacts, escalation, or testing. |
-|  |  | Events reported per criteria. | 1. Are incidents reported per threshold? How mature is process? | Fail | No incident reporting due to lack of response capability. |
-|  |  | Info shared per response plans. | 1. Do plans include escalation, law enforcement involvement? | Fail | No incident response plans. |
-|  |  | Coordination with stakeholders per plans. | 1. Do plans detail team coordination for escalated incidents? | Fail | No cyber response/plans. |
-|  |  | Voluntary info sharing with external stakeholders. | 1. Is security intelligence shared with community/industry? | Fail | No strategy/process for sharing. |
-| Analysis | Ensure adequate response and support recovery. | Investigate alerts from detection systems. | 1. Is there a process to respond to alerts? 2. Is there 24/7 coverage? | Fail | No SIEM or cyber strategy; only ad-hoc IT response. No 24/7 coverage. |
-|  |  | Incident impact understood. | 1. Is impact/criticality documented during analysis? | Fail | No roles/strategy, so no documentation of impact. |
-|  |  | Forensic capability. | 1. Can team perform digital forensics? | Fail | No cyber strategy, tools, or skills for forensics. Ad-hoc vulnerability scans only. |
-|  |  | Incidents categorized per response plans. | 1. Are incidents prioritized by criticality in response plans? | Fail | No detection/response capability. |
-| Mitigation | Prevent event expansion, mitigate effects, eradicate incident. | Incidents contained. | 1. Do plans ensure containment (e.g., SANS template)? | Fail | No response plans. |
-|  |  | Incidents mitigated. | 1. Do plans ensure incident mitigation (e.g., SANS template)? | Fail | No mitigation standards/plans. |
-|  |  | New vulnerabilities managed/documented as accepted risk. | 1. Is there a program for new vulnerabilities incl. zero-days? | Fail | No vulnerability management program. |
-| Improvements | Incorporate lessons learned into response activities. | Plans include lessons learned. | 1. Do plans include 'lessons learned'? | Fail | No response plans, thus no lessons learned step. |
-|  |  | Response strategies updated. | 1. Are plans periodically tested/updated? | Fail | No incident response plans to test/update. |
+|--------------|------------------|--------------------|------------------|-----------|----------|
+| Response Planning | Response plan is executed | Incident response plans exist and are used during incidents? | Fail | No cyber security response in place at Oscorp. |
 
----
+# Response Communications
+*Response activities coordinated with stakeholders, including law enforcement.*
 
-## Recovery Planning
+| Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
+|------------------|--------------------|------------------|-----------|----------|
+| Personnel roles known for response | Clear contact details and escalation points in incident plans? Tested? | Fail | No incident response plans; no contact details, escalation, or testing. |
+| Events reported per criteria | Incidents reported as per threshold? Response maturity? | Fail | Incidents not reported per threshold; no response capability. |
+| Information shared per plans | Do plans include escalation and law enforcement involvement? | Fail | No incident response plans exist. |
+| Stakeholder coordination | Do plans detail how teams coordinate for escalated incidents? | Fail | No response plans in place. |
+| Voluntary info sharing | Is info security intelligence shared with peers/community? | Fail | No strategy or risk process; no sharing. |
 
-| Sub-Category | Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
-|---|---|---|---|---|---|
-| Recovery Planning | Timely restoration of affected systems/assets. | Recovery plan executed during/after event. | 1. Is there a disaster recovery plan? Has it been tested? | Pass | Disaster recovery is tested regularly. Backups are taken and tested periodically. |
-| Improvements | Plans/processes improved by lessons learned. | Recovery plans include lessons learned. | 1. Do recovery plans include 'lessons learned'? | Pass | No 'lessons learned' step included in DR plans. |
-|  |  | Recovery strategies updated. | 1. Is disaster recovery tested/updated regularly? | Pass | Testing and regular updates occur for DR plans. |
-|  |  | Reputation repaired after event. | 1. Are reputation mitigation steps included? | Fail | No mitigating steps for reputation in DR plans. |
-| Communications | Coordinate restoration activities with internal/external parties. | Public relations managed. | 1. Is communication improved during DR testing? | N/A |  |
-|  |  | Internal comms/escalation for recovery. | 1. Are there clear comms/escalation points in DR plans? | Fail | No clear communication/escalation points in DR plans.
+# Response Analysis
+*Analysis ensures adequate response and supports recovery activities.*
+
+| Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
+|------------------|--------------------|------------------|-----------|----------|
+| Notifications investigated | Clear process to respond to alerts? 24/7 coverage? | Fail | No SIEM, no strategy, only ad-hoc AV responses; no 24/7 coverage. |
+| Impact understood | Is incident impact/criticality documented? | Fail | No roles defined, no strategy, no documentation. |
+| Forensics performed | Team has forensics capability/tools? | Fail | No strategy, no proper tools, only ad-hoc vulnerability scans. |
+| Incidents categorized | Are response plans structured to prioritize incidents? | Fail | No detection or response capabilities. |
+
+# Response Mitigation
+*Prevent event expansion, mitigate effects, eradicate incidents.*
+
+| Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
+|------------------|--------------------|------------------|-----------|----------|
+| Incidents contained | Do response plans ensure containment (e.g., SANS template)? | Fail | No response plans at Oscorp. |
+| Incidents mitigated | Do plans ensure incident mitigation as needed? | Fail | No response plans or standards. |
+| Vulnerabilities managed | Is there a program to handle new/zero-day vulnerabilities? | Fail | No formal vulnerability management program. |
+
+# Response Improvements
+*Response activities improved using lessons learned.*
+
+| Control Objective | Control Description | Questions to Ask | Pass/Fail | Comments |
+|------------------|--------------------|------------------|-----------|----------|
+| Lessons learned | Do plans include a "lessons learned" step? | Fail | No response plans; no lessons learned step. |
+| Response updated | Are plans periodically tested and updated? | Fail | No plans to test or update. |
+
+# Recovery Planning
+*Processes and procedures for restoration of systems/assets after cybersecurity events.*
+
+| Sub-Category        | Control Objective                      | Control Description                | Questions to Ask                                                                 | Pass/Fail | Comments                                                                                           |
+|---------------------|----------------------------------------|------------------------------------|----------------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------|
+| Recovery Planning   | Recovery plan is executed              | Are disaster recovery plans in place and tested?                                | Pass      | Disaster recovery testing is conducted regularly. DR is in place and tested; backups taken/tested. |
+
+# Recovery Improvements
+*Recovery planning/processes are improved using lessons learned.*
+
+| Control Objective                      | Control Description        | Questions to Ask                         | Pass/Fail | Comments                                                      |
+|----------------------------------------|---------------------------|------------------------------------------|-----------|---------------------------------------------------------------|
+| Recovery plans incorporate lessons learned | Lessons learned in DR plans | Is there a "lessons learned" step?         | Pass      | No "lessons learned" step is included in DR plans.            |
+| Recovery strategies updated            | DR plans tested/updated   | Are plans periodically tested and updated? | Pass      | Yes, periodic testing for DR plans; regularly updated.         |
+
+# Recovery Communications
+*Restoration activities coordinated with parties (ISPs, vendors, PR, CSIRTs).* 
+
+| Control Objective                        | Control Description       | Questions to Ask                                     | Pass/Fail | Comments                                      |
+|------------------------------------------|--------------------------|------------------------------------------------------|-----------|-----------------------------------------------|
+| Public relations managed                 | PR improved in DR testing | Is communication improved as part of DR testing?      | N/A       |                                               |
+| Reputation after event is repaired       | Crisis reputation steps   | Do DR plans include steps for reputation crisis?      | Fail      | No mitigating steps included in DR plans.      |
+| Recovery activities communicated         | DR activities to execs    | Are communication/escalation points in DR plans?      | Fail      | No clear communication/escalation in DR plans. |
