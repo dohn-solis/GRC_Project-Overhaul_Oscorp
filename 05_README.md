@@ -5,13 +5,13 @@ Project_Overhaul_Oscorp is a comprehensive project aimed at transforming Oscorp 
 Based on these insights, I developed a tailored solution roadmap focused on closing critical gaps, optimizing resource allocation, and aligning IT and cybersecurity practices with business objectives and risk strategy. This README provides an overview of the project’s scope, methodology, and outcomes, serving as a reference for anyone seeking to understand or build upon the work completed.
 
 The file 03_Project_Overhaul_Maturity_Assessment contains a comprehensive table covering:
-•	Asset Management (hardware/software inventories, network diagrams, classification)
-•	Business Environment (mission, supply chain, resilience planning)
-•	Governance (security policy, roles, legal/regulatory obligations)
-•	Risk Assessment (vulnerabilities, threats, business impacts)
-•	Risk Management Strategy (risk tolerances, stakeholder endorsement)
-•	Response Planning (incident response, communications, analysis, mitigation, improvement)
-•	Recovery Planning (disaster recovery, lessons learned, reputation management, communications)
+Asset Management (hardware/software inventories, network diagrams, classification)
+Business Environment (mission, supply chain, resilience planning)
+Governance (security policy, roles, legal/regulatory obligations)
+Risk Assessment (vulnerabilities, threats, business impacts)
+Risk Management Strategy (risk tolerances, stakeholder endorsement)
+Response Planning (incident response, communications, analysis, mitigation, improvement)
+Recovery Planning (disaster recovery, lessons learned, reputation management, communications)
 
 Each section details control objectives, descriptions, guiding questions, pass/fail evaluations, and key comments.
 Please refer to the maturity assessment file for specific findings and recommendations.
